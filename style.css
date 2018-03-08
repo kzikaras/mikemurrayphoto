@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(229, 240, 236);
+    height: 100%;
+    width: 100%;
+    font-family: 'quicksand';
+}
+
+footer {
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 16px;
+    margin-top: 5px;
+}
+
+.card .card-img-top {
+    margin-top: 14px;
+}
+
+.btn {
+    background-color: rgb(229, 240, 236);
+    border: 1px solid black;
+}
+
+.close {
+    color: black;
+    border: 1px solid black;
+}
+
+#galleries {
+    max-width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 60%;
+}
+
+@media screen and (min-width: 996px) {
+    nav {
+        display: block;
+        height: 80px;
+        border-bottom: 1px solid black;
+    }
+    
+    .navigation {
+        display: inline-block;
+        text-decoration: none;
+        float: right;
+        margin-top: 20px;
+    }
+    
+    .navigation a {
+        font-size: 1.5rem;
+        margin: 6px;
+        color: black;
+    }
+    
+    .brand {
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    #carousel-section {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 82%;
+    }
+    .set-max-width {
+        max-width: 85%;
+    }
+}
+
+
+/* iphone 7 size screen */
+@media screen and (max-width: 995px) {
+    nav {
+        text-align: center;
+        display: block;
+        height: 125px;
+        border-bottom: none;
+    }
+    .navigation {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 6px;
+        color: black;
+    }
+    .navigation a {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 6px;
+        color: black;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    #title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    #galleries {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+
+
